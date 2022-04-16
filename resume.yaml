@@ -1,38 +1,41 @@
-Author: LYC
+Author: Naskete
 Guide:
   - 照着这里面的格式填写即可
   - PDF 会自动生成，文件名可以在 gulp.js 里改
   - PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可
 
-title: 廖宇晨
+title: 蒋俊杰
 
 aside:
-  - href: https://github.com/YuChenLiao/LYCResume
+  - href: https://github.com/Naskete/JJJResume
     content: 源代码
   - href: ./pdf/resume.pdf
     content: PDF 下载
 
 header:
   title:
-    name: 廖宇晨
-    job: 前端（实习）
+    name: 蒋俊杰
+    job: 后端开发（实习）
   contacts:
-    phone: 15797703563
-    mail: yuchenliao3@gmail.com
-    wechat: LYC
+    phone: 18178724156
+    mail: nasketey@gmail.com
+    wechat: Naskete
     github:
-      href: https://github.com/YuChenLiao
-      name: 廖宇晨
+      href: https://github.com/Naskete
+      name: Naskete
+    blog: 
+      href: https://naskete.github.io/
+      name: Naskete的博客
 
 education:
   time: 2019-2023
   name: 南昌大学
-  major: 计算机类（本科在读）
+  major: 计算机类软件方向（本科在读）
 
 language:
   cert:
     - name: CET-4
-      grade: 430
+      grade: 478
       fullmarks: 710
   skills:
     - 良好的英文读写能力,能够独立阅读英文文档
@@ -42,60 +45,62 @@ experience:
       place: 南大家园 US 项目组
       time: 2020/02 - 2021
     content:
-      position: 社团内部管理系统维护与重构前端负责人
+      position: 内部管理系统us维护与重构后端负责人
       tasks:
-        - 技术栈基于 react + antd + dva
-        - 负责内部管理系统前端部分，主管开发新功能，使用框架新特新逐步取代老旧代码和修复漏洞，主要功能有无课时间统计，内部反馈，内部发帖，内部投票和人员管理
+        - 对us数据库进行维护，基于MySQL对用户数据进行导入导出
+        - 技术栈基于 golang+Gin+Gorm+grpc进行重构和功能开发
+        - 增加反馈功能feedback，以微服务架构对项目进行解耦重构
   - title:
-      place: 南大家园 hackweek 
+      place:  南大家园 hackweek 
       time: 2020/03
     content:
-      position: hackweek 第四组前端负责人
+      position: 后端负责人
       tasks:
-        - 技术栈基于 vue + ElementUI
-        - 开发论坛网站用于参与校内比赛，主要功能有发帖删帖，点赞回复和查看历史记录等,并取得第三名成绩
-  - title:
-      place: 南大家园美食玩家项目组前端
-      time: 2020/08
-    content:
-      position: 社团招新活动网页小游戏开发前端
-      tasks:
-        - 技术栈基于 vue + ElementUI + vuex + anime.js
-        - 实现了响应式多端适配的抓娃娃网页小游戏并成功上线使用到招新结束
+        - 技术栈基于 java + SpringBoot + MySQL
+        - 团队开发web小游戏，提供后台数据支持
+  # - title:
+  #     place: 
+  #     time: 
+  #   content:
+  #     position:
+  #     tasks:
 
 skills:
   flags:
-    name: Web 前端
+    name: 后端技术
     skill:
-      - name: 'HTML/CSS'
+      - name: 'JAVA'
         description:
-          - 能够编写语义化的 HTML，熟悉 CSS 的使用
-          - 可以不借助框架编写`响应式/移动端网页`
-      - name: '`ECMAScript`'
+          - 熟悉JAVA语言的基本特点以及高级特性
+          - 了解JAVA并发编程
+          - 能够使用JAVA结合Spring等框架进行Web开发
+      - name: 'Golang'
         description:
-          - 熟悉 ES6 语法，代码编写遵守规范
-          - 能利用异步编程解决实际问题，`掌握常见的解决方案`
-      - name: '`Vue`'
+          - 熟悉Golang语言的基本特点
+          - 能够使用Golang+Gin+Gorm进行Web开发
+      - name: '`SpringBoot`'
         description:
-          - 熟练使用 vue 进行开发，熟悉常用 API
-          - 使用过 vue 开发线上项目
-      - name: '`React`'
+          - 熟练使用SpringBoot进行JAVA web开发
+          - 了解SpringBoot的基本原理
+      - name: '`数据库`'
         description:
-          - 熟练使用 react 进行开发,熟悉 reacthook 常用 API 
-          - 使用过 react 参与社团项目维护迭代，内部比赛和在校课程大作业
-      - name: 前端工程化实践
+          - 熟练使用 MySQL
+          - 熟悉Redis的使用和特点
+      - name: '`Docker`'
         description:
-          - 使用过 `React + TypeScript + dva`完成校内课程作业
-          - 具体实现的是一个客房管理系统，包括管理员的登录，用户的入住登记，退房登记和实时显示客房状态等
-          - 对 `React/Vue` 框架底层原理有过了解
+          - 掌握Docker容器技术,熟悉Dockerfile的编写
+          - 了解docker-compose的使用
+      - name: '`Linux系统`'
+        description:
+          - 熟悉Linux系统的使用，掌握常用的Linux命令，使用Linux系统进行日常开发
 
   gears:
     name: 其它
     skill:
       - name: '`计算机基础`'
         description:
-          - '`对计算机与编程有极大热情，自学能力较强`'
+          - '`对编程有极大热情，享受项目或功能实现后的成就感，自学能力较强`'
       - name: 工具使用
         description:
           - 熟练使用 Git 
-          - 能够合理利用 Google、StackOverflow、GitHub Issues 等解决技术方面遇到的困惑和问题
+          - 能够合理利用 Google、GitHub Issues 等解决技术方面遇到的困惑和问题
